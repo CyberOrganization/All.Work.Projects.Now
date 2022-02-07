@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import banner from '../assets/banner.jpeg';
+
+//Import CSS
+import "../styles/Home.css"
 
 function Home() {
 	return (
