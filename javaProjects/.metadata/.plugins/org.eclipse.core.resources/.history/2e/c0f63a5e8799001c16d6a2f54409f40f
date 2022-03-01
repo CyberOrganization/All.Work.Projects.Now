@@ -1,0 +1,24 @@
+package com.in28minutes.rest.webservices.restfulwebservices;
+
+import org.springframework.web.bind.annotation.RestController;
+
+public class HelloWorldController {
+
+	//Controller
+	@RestController 
+	public class HelloWorld {
+		// TODO Auto-generated method stub
+		
+		//GET
+		//URI - /hello-world
+		//method- "Hello World"
+		
+		
+
+	}
+	@RequestMapping
+	public String helloWorld() {
+		return "Hello World";
+	}
+
+}
