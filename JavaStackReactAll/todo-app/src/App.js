@@ -1,16 +1,22 @@
 import React, { Component } from 'react';
 import Counter from './components/Counter/Counter';
+import TodoApp from './components/todo/TodoApp';
 import './App.css';
 
 class App extends Component {
 	render() {
 		return (
 			<div className='App'>
-				<Counter  />
-			
+				{/* <Counter  /> */}
+	
+      <TodoApp/>
+    
+
 			</div>
 		);
 	}
 }
+
+
 
 export default App;
