@@ -1,0 +1,15 @@
+In the next few lectures you are going to create a restful API that can be consumed by an Angular application
+and you are going to do that using Node and Express.
+
+Node is a JavaScript framework that allows us to create server side applications using JavaScript.
+So you're going to expose out the CRUD operations, create, read, update and delete on a product table
+
+in the database using the combination of Node and Express. So Express is a module in Node. Node has several inbuilt
+modules and we can create our own modules as well.
+
+We are going to use three important modules, Express to create RESTful APIs, MySQL module in Node to
+connect to the MySQL database and perform the CRUD operations and the Body Parser module to parse the incoming request into a JavaScript object and vice versa.
+So it's very simple.
+
+You're going to use Node and the modules within Node that we are going to use are Express JS, MySQL module to connect to MySQL database and the body parser module and we'll expose out a
+RESTful web service API that can be used by the clients which are nothing but our angular applications to create, read, update and delete a product in the database.

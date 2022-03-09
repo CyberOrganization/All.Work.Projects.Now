@@ -1,0 +1,57 @@
+In this lecture, you will learn what single page applications are. Single page applications or SPAs as they're called, are web applications that run entirely in a
+web browser and they do not need any page reloads. 
+
+In traditional web applications, when a user is using our web application and he clicks on a button or a link then a request will be sent to the server and
+the server side code is responsible for generating a brand new UI or a HTML page which will
+
+be sent back to the browser which will result in a page refresh. But in single page applications, the page is loaded only once initially when the user accesses the web application. That is why their
+name is single page applications.
+
+And from that point in time, every time the user interacts with our webpage, a request will be sent to the backend.
+But the backend is responsible only for sending the appropriate data for that request. 
+
+And the front end will dynamically update the HTML DOM without refreshing the entire web page. That is a single page application. It provides a great user experience.
+Good examples of single page applications are Facebook and Gmail. 
+
+In Facebook, when you click on a particular link or a button the entire page will not be refreshed. It will fetch the data by sending a request to the Facebook backend and it will only update that part
+of the DOM on the page. Similarly in Gmail, if click on inbox it will not update the entire page.
+
+It will fetch all the emails and it will update only this portion of the page. So behind the scenes, it is sending a request to the Gmail backend which sends the data back to the
+frontend application running in the browser and the front end application using JavaScript, it will update that part of the HTML DOM dynamically.
+
+If I click on the email it will fetch the email information and it will generate this part of the DOM
+in the browser. 
+
+Similarly when you are going to create the flight reservation application later in the course, this is a single page application you built using Angular.
+You will enter the from city, to city and then the departure date.
+
+Click on the search button to search for flights. The entire page will not be refreshed but only this portion of the HTML page will be generated dynamically.
+And if you select a flight you will go to the next screen again.
+
+So once the user visits the very first page in your application, from that point we will, as he browses through our application the content will be loaded dynamically and using JavaScript
+we are going to generate the HTML DOM dynamically. 
+
+That is single page application. There are several advantages of single page applications. The first one, it provides a great user experience. The end user thinks that he's accessing the entire
+application, the entire application is running on his own machine.
+
+That is the feel that it gives to the end user. It is very fast because once the data is loaded onto the web browser, we need not fetch that data again
+and again, we can just use that data and build the screens dynamically. 
+
+Only in case the data is updated, the data has to be created, we go to the backend. Otherwise we have all the data on the browser.
+Third, it's very easy to develop single page applications because we can separate out the back end and the front end.
+
+And also we can use the same backend against multiple frontends. That is, we can use the same backend APIs for our web application as well as a mobile application. Single
+page applications can work offline. Once all the data is fetched, we can go offline and the user can use our application in the web browser. Only when the creates or updates
+need to happen, then he can connect and send the data back to the backend. 
+
+Ofcourse with great power comes some disadvantages as well. Single page applications are less secured and there are chances for memory leaks.
+
+We have to handle JavaScript memory leaks carefully. Less secured because for single page applications to work, to connect to the backend,
+
+we need to enable crosssite scripting which will enable attackers to inject client side scripts that can crash our web applications. 
+
+So we have to handle those with care. And since everything happens in the web browser, we have to handle the JavaScript
+memory leaks carefully which otherwise will slow down the application and provide a bad user experience.
+
+So single page applications are those which load onto the web browser just once. Once the user accesses the very first page,
+from that point in time as the data is required it will be fetched and the HTML DOM will be updated without a page refresh.

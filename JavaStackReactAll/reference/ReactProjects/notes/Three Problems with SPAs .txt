@@ -1,0 +1,27 @@
+It will be easy for you to understand what React is and why you should use it to develop your single page applications
+if you understand the three problems that every single page application faces, starting with state management.
+
+In every single page application most of the time will be spent in keeping our data in sync with the UI. That is, when the user loads new content we'll have to connect to a backend, load the data and then decide
+what fields on the current UI should be cleared, which fields should be visible and which ones should be destroyed. 
+
+In old web applications before single page applications we never used to worry about this because we used to refresh the complete UI, an entire new UI is completely built from scratch every time
+the user clicks on a button or he submits a form, etc. But in single page applications, we'll have to manage this data by fetching the data and updating the UI partially as required.
+
+So state management is a problem in single page applications. Second problem is manipulating the DOM because you have to manually query the elements where we want
+to make an update within our HDML DOM and we will just update that part of the DOM which can be very slow and painful process in the web browser.
+
+Unfortunately we have to do that a lot in single page applications. Manipulating the DOM is a primary way we enable single page applications to respond to user actions
+and display new content. 
+
+We'll not be updating the entire page, we'll be accessing a particular element in the DOM and we will be updating it or changing it as required.
+So DOM manipulation can be really slow in the web browser, that's problem number two. Three, working with HTML template engines like Mustache can be painful.
+
+That is, when the user navigates through our single page app, we'll be dealing with tiny little pieces of HTML that will be rendered to the UI at a time.
+
+So when we use templating engines like Mustache, here we have JavaScript and then here we can push HTML which are two separate things.
+
+And this syntax can get really complicated as we develop sophisticated UIs, a lot of double quotes, flower brackets and the combination of all these. So these pieces of HTML are called templates right here
+and creating these templates using templating frameworks like Mustache can get really complex. 
+
+In the next lecture, you will learn how React will overcome all these problems while developing single page applications and
+makes our life as a developer super easy to develop super cool single page applications.

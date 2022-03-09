@@ -1,0 +1,35 @@
+A component is a key feature of React using which we'll create our own HTML like elements. For example, nav bar for our application can be a component,
+the menu we want to display can be a component of it's own and footer for our application can be a component as well.
+
+So all these here are custom HTML elements which will have their own look and behavior. We'll create these components using JavaScript that will generate HTML via
+JSX. 
+
+So we structure and organize our application as a bunch of components that will use each other
+as required. Let's look at a real time example. You can launch your web browser and go to any of your favorite websites, ebay.com or amazon.com.
+Say ebay.com.
+
+
+And you will see that this website is organized into a bunch of components. Here, right here on the top, this header can be a component of its own.
+
+Then this search bar here can be a component of its own called search component. And down here this menu you see, this can be a component of its own as well and then the footer, the carousel
+you see here which you can browse through different products, this can be a component of its own as well.
+
+So an application built with React is a bunch of components that can talk to each other or that can use each other.
+
+You can also look at Facebook ofcourse who have given us React. Go to facebook.com. Log in. If you go to my interesting profile this block here right here on the top which has my name, home, create.
+This part can be a component of its own.
+
+Then what you see here, my profile pic and the cover pic, that can be a component of its own. On the left you see the profile information, that is a component of its own.
+
+Here the timeline, about, about me and my friends, photos,
+all that can be a component. 
+
+And this here, where you can post information and stuff, create a post, that can be a component of its own. So creating a component is very easy. As you will do
+that in the next lecture, you will simply create a class using JavaScript and that class should extend a component from React. 
+
+Once you do that you will override the render method from this React component parent class. 
+
+Whatever JSX you return from that render method, that will be generated or converted into HTML and then rendered onto the web browser,
+it's that simple. 
+
+So you will extend the React.component, override the render method and return whatever UI you want to render.

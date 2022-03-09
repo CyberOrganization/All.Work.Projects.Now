@@ -1,0 +1,57 @@
+React is one of the most popular and quickly growing single page application development frameworks. It was introduced by Facebook
+but now it's pretty much used by all the big companies out there starting with Yahoo, PayPal, Khan academy, BBC and many more.
+
+The reason for React's popularity is because of the way it solves the problems we had with
+traditional single page application development frameworks, starting with state management. 
+
+Keeping track of the UI and managing the state can be hard and time consuming. It doesn't matter what the series of steps our users may have taken to change the UI, what matters is
+whether the UI has ended up. 
+
+React will figure out what needs to be updated and it will do it automatically for us. So we need not worry about state management anymore. In traditional SPA, single page applications,
+the DOM manipulation is time consuming. So it needs a lot of effort to change the DOM or update the DOM. 
+
+React provides virtual DOM. Working with a virtual DOM is very fast and React will update the original DOM as and when needed. 
+
+It will figure out the differences between the virtual DOM and the real DOM and it will make the least amount of changes that are required to keep the UI in sync.
+This process is called reconciliation. 
+
+So React provides a virtual DOM with which we work and React internally will take care of manipulating the original DOM as required
+and it will make the minimum changes that are required to keep the UI in sync with the changes. 
+
+React provides a great API to create a reusable UI widgets. React recommends that we break down our UI into smaller
+chunks or components. 
+
+Instead of having one big UI widget, we'll divide it into multiple components and React provides a easy to use API to create those components.
+
+And once we have them, we can use the API to combine these and create complex components as well. 
+
+Next comes the power of JavaScript. React gives us the entire power of JavaScript because our views will be defined entirely in JavaScript.
+
+Yes, you heard it right. The HTML template engines like Ember JS or Mustache make it hard to combine HTML and JavaScript logic but React makes it super easy.
+We can directly use HTML like elements inside the JavaScript code. 
+
+This syntax is JSX, JavaScript extensions which is very similar to HTML. So we get the power of HTML and we can also use JavaScript in the same place.
+
+Let me show you an example that you will be working later on. So here is a script or a react component and you can see that the JavaScript code lives right here
+and all the JSX is right here as well. So you can use a for loop, loop through it and return the HTML or push the HTML elements onto the DOM as many number of times as you want.
+And if you want a if condition you will use it right here.
+
+And this part here will have, will happen conditionally. So you are going to combine JavaScript as well as HTML. Your JavaScript and HTML will live in the same
+place.
+
+We need not toggle between different editors anymore or different locations anymore.Everything is in one place and we no longer are limited by what the frameworks like Ember JS or Mustache
+provide because we can use everything that is available in JavaScript inside React. 
+
+So React makes our life super easy to create the components by using what JavaScript provides.
+
+Last but not the least, React is the view in the MVC. So it completely addresses the view part in a MVC
+and the model and the controller can be anything.
+
+So you can use anything for your backend, it could be Java, Python, Node, etc; but to develop a single page application view, React has everything inbuilt and it makes our life super easy by giving us automatic
+state management, lightning fast DOM manipulation through its virtual DOM, APIs to create reusable
+tiny little components instead of one monolithic huge UI component. 
+
+Then we can use JavaScript and we can realize the complete power of JavaScript because it provides JSX which is similar to HTML.
+But now the code, both JavaScript and HTML lives together and it's super easy to develop our UIs. And last but not the least,
+
+it gives everything, routing, etc; as you will be exploding later on to develop a view and it can connect to any model or any backend controllers.

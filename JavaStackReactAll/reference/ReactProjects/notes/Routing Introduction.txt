@@ -1,0 +1,18 @@
+Routing is what applications do when user navigate from one web page to another in a web application.For example if you go to Amazon dot com and when you enter something for a search here let's say Angular
+book and click on this button.
+
+That's nothing but routing. Amazon has navigated us or routed us from the search to the search results page.
+
+Click on one of these it will go to the next level and click on the details of that or that link. We are being routed to the details page where we can see more details about that book.
+Add it to the cart or buy now.
+
+So every time you are clicking on a link an image and button. What is happening behind the scenes is the application is routing you from one web page to another in
+traditional web applications before single page applications.
+
+The way it used to work is that the application running on the browser will send a request to the server every time the user clicks on something and then the server will process that request and send the next
+view back to the browser.
+
+So the routing and the navigation used to happen on the server side the server side application had complete control on routing but in case of single page applications the entire routing is done on the client
+side itself.
+
+And once in a while we make server side calls to update the data or to fetch data as required by the application.

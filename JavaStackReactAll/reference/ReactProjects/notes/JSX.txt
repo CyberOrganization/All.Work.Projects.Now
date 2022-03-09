@@ -1,0 +1,31 @@
+Typically web applications are made up of HTML, CSS and JavaScript. Whether we use Angular or Knockout
+or JQuery you will see these three in action. But React is special, it uses JSX. 
+
+JSX stands for JavaScript XML or XML like element. It allows us to easily mix JavaScript and HTML like tags to define our own UI elements. 
+Here this hello is a UI element that you are going to create in the next few lectures.
+
+Once you use it, it will display Hello and then the name Bharath onto the web browser. So a JSX allows us to mix JavaScript and HTML and create powerful UIs in a simple
+manner.
+
+Here is another example where you can mix the JavaScript for loop along with HTML like syntax. This is JSX here although you see li.
+It's not HTML, it is JSX. But the web browsers only understand HTML and JavaScript, they don't understand JSX. 
+
+So we need somebody to convert the JSX on the fly into HTML and JavaScript. There are two ways to do it.
+
+The first way is to include babel which is a compiler that can transpile our code, our JSX into something that the browser understands which is HTML and JavaScript. So in our
+HTML pages that we create,
+
+we will include this library and when our HTML page is opened in a web browser, automatically this library
+on the fly at runtime, it will convert the JSX into JS and HTML. That's number one way. 
+
+The second way is to set up a complete development environment using Node and create React app which is a command line interface to create React projects.
+Once you do that, automatically the JSX in our project will be converted into JavaScript and HTML at build time and it will live on the disk and when the client requests for a particular page that HTML
+
+and JavaScript will be rendered on the web browser or sent to the web browser. So we'll start using the first way to keep your learning easy,
+
+
+we will start with the first approach where you will include the babel.min.js which is a React library which will transpile your JSX into JavaScript and HTML.
+And once you master all the fundamentals using this approach you will learn how to create your React projects from scratch using Node, create-react-app CLI. 
+
+That is what is used in real time applications. So JSX is a super cool syntax that React gives
+us using which we can easily combine JavaScript and HTML.
